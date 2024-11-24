@@ -42,7 +42,7 @@ const CryptoDashboard = () => {
     );
   }
   return (
-    <div className="max-w-7 mx-auto p-4">
+    <div className="max-w-7xl mx-auto p-4">
       <h1 className="text-4xl font-semibold text-center text-black mb-8">
         Crypto Currency Deshboard
       </h1>
