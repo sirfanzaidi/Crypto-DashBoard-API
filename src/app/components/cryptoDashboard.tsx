@@ -67,12 +67,12 @@ const CryptoDashboard = () => {
               <p className="text-lg text-blue-600 ">24h Change: </p>
               <p
                 className={`text-xl font-semiold ${
-                  coins.price_change_percentage_24 < 0
+                  coins.price_change_percentage_24h < 0
                     ? "text-red-500"
                     : "text-gray-500"
                 } `}
               >
-                {coins.price_change_Percentage_24.toFixed(2)}%
+                {coins.price_change_percentage_24h.toFixed(2)}%
               </p>
             </div>
           </div>
